@@ -12,7 +12,7 @@ license: apache
 loaders:
   - module
   - returner
-max_salt_version: 3007.1
+max_salt_version: 3007
 no_saltext_namespace: false
 package_name: cassandra
 project_name: cassandra
