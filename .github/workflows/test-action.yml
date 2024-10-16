@@ -210,7 +210,7 @@ jobs:
       max-parallel: 2
       matrix:
         include:
-          - {salt-version: "3006.9", python-version: "3.11"}
+          - {salt-version: "3006.9", python-version: "3.10"}
           - {salt-version: "3007.1", python-version: "3.10"}
 
     steps:
