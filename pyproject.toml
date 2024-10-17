@@ -50,6 +50,7 @@ changelog = ["towncrier==22.12.0"]
 dev = [
     "nox[uv]>=2024.3",
     "pre-commit>=2.21.0",
+    "cryptography>=42.0.5",
 ]
 docs = [
   "sphinx",
@@ -70,6 +71,7 @@ tests = [
     "pytest>=7.2.0",
     "pytest-salt-factories>=1.0.0; sys_platform == 'win32'",
     "pytest-salt-factories[docker]>=1.0.0; sys_platform != 'win32'",
+    "cryptography>=42.0.5",
 ]
 
 [project.entry-points."salt.loader"]
